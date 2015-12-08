@@ -13,6 +13,6 @@ $ pm2 start proxy.js
 $ pm2 startup debian
 
 Test it:
-curl --header 'passphrase:<your-password>' --header 'target_url:http://www.wikipedia.org' <ip-of-your-server:port>
+curl --header 'passphrase:your-password' --header 'target_url:http://www.wikipedia.org' ip-of-your-server:port
 
 
