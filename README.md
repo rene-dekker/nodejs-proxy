@@ -8,5 +8,7 @@ Actually, thatone is probably better, because it deals with https too.
 
 
 Install pm2
-sudo npm install pm2@latest -g
-pm2 start proxy.js
+$ sudo npm install pm2@latest -g
+$ pm2 start proxy.js
+$ pm2 startup debian
+
